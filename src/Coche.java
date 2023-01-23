@@ -10,7 +10,7 @@ public class Coche {
     }
 
     public void incrementar_puertas() {
-        num_puertas = num_puertas + 1;
+        this.num_puertas++;
         System.out.println("Se ha incrementado el número de puertas del coche.");
     }
 }
